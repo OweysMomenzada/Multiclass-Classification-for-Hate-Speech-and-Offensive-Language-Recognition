@@ -41,3 +41,40 @@ We could recieve an accuracy of over 85% percent.
 #### Model:
 We could notice that a transformer model, such as BERT, could not increase our accuracy significantly enough. Therefore, we used the 
 LSTM model because of the decent results in performance and accuracy.
+
+#### Dataset
+We used the following Datasets:
+```
+@inproceedings{hateoffensive,
+  title = {Automated Hate Speech Detection and the Problem of Offensive Language},
+  author = {Davidson, Thomas and Warmsley, Dana and Macy, Michael and Weber, Ingmar}, 
+  booktitle = {Proceedings of the 11th International AAAI Conference on Web and Social Media},
+  series = {ICWSM '17},
+  year = {2017},
+  location = {Montreal, Canada},
+  pages = {512-515}
+  }
+  
+```
+
+```
+@misc{qian2019benchmark,
+      title={A Benchmark Dataset for Learning to Intervene in Online Hate Speech}, 
+      author={Jing Qian and Anna Bethke and Yinyin Liu and Elizabeth Belding and William Yang Wang},
+      year={2019},
+      eprint={1909.04251},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+```
+@misc{mandla2021overview,
+      title={Overview of the HASOC track at FIRE 2020: Hate Speech and Offensive Content Identification in Indo-European Languages}, 
+      author={Thomas Mandla and Sandip Modha and Gautam Kishore Shahi and Amit Kumar Jaiswal and Durgesh Nandini and Daksh Patel and Prasenjit Majumder and Johannes Schäfer},
+      year={2021},
+      eprint={2108.05927},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
