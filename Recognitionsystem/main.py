@@ -1,8 +1,26 @@
 from model import hate_offensive_model
 from Crawler import twitterCrawler
 
+from flask import Flask, render_template, request, abort, jsonify
+
 from langdetect import detect
 import warnings
+
+
+app = Flask(__name__)
+
+
+@app.route("/api", methods=["POST"])
+def get_json():
+    if request.method == "POST":
+        if request.json:
+            request_json = request.json
+            if 'text' in request_json and 'num_tweets' in request_json:
+                json_result = results_json(request_json['text'], request_json['num_tweets'])
+                return jsonify(json_result)
+            abort(400, 'JSON data missing text field.')
+        abort(415)
+    abort(405)
 
 
 def is_english(text: str):
@@ -74,9 +92,12 @@ def results_json(hashtag: str, tweets_num: int):
     english_bool = [is_english(text) for text in texts]
 
     json_res = {'text': texts,
-                'hate_offensive_predictions': preds,
                 'label': labels,
                 'is_English': english_bool
                 }
 
     return json_res
+
+
+if __name__ == '__main__':
+    app.run(port=9000, debug = True)
