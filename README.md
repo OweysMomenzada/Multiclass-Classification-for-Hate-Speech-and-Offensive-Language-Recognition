@@ -1,6 +1,7 @@
 # Multiclass Classification for Hate-Speech and Offensive Language Recognition based on Tweets
 
-
+This is a small project for DeepLearning in NLP at the University of Hamburg.
+We build a Multi-Classifier for Hate-Speech and Offensive Language detection based on TensorFlow.
 
 #### Requirements
 Please install the following python-packages:
@@ -35,3 +36,8 @@ The json file output of the API looks as follows:
 #### Result:
 We used a 25% to 75% test-train split. Please note that the given notebook has no evaluation since we only provide this to get the tf-files.
 We could recieve an accuracy of over 85% percent.
+
+
+#### Model:
+We could notice that a transformer model, such as BERT, could not increase our accuracy significantly enough. Therefore, we used the 
+LSTM model because of the decent results in performance and accuracy.
