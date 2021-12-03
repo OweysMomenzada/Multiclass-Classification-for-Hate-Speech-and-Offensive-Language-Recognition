@@ -42,6 +42,10 @@ We could recieve an accuracy of over 85% percent.
 We could notice that a transformer model, such as BERT, could not increase our accuracy significantly enough. Therefore, we used the 
 LSTM model because of the decent results in performance and accuracy.
 
+#### Evaluation:
+Since we used different datasets you may think that our model performed bad in some cases. However, we could actually get a decent accuracy (apprx. 90%) on 
+all dataset. That means we predicted each dataset as a testset separately. For more insight into that approach, please take a look into the notebook <i> Feature Engineering & Training & Evaluation.ipnby</i>
+
 #### Dataset
 We used the following Datasets:
 ```
