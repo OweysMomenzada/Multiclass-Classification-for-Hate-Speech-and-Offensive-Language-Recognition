@@ -71,14 +71,3 @@ We used the following Datasets:
       primaryClass={cs.CL}
 }
 ```
-
-```
-@misc{mandla2021overview,
-      title={Overview of the HASOC track at FIRE 2020: Hate Speech and Offensive Content Identification in Indo-European Languages}, 
-      author={Thomas Mandla and Sandip Modha and Gautam Kishore Shahi and Amit Kumar Jaiswal and Durgesh Nandini and Daksh Patel and Prasenjit Majumder and Johannes Schäfer},
-      year={2021},
-      eprint={2108.05927},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
