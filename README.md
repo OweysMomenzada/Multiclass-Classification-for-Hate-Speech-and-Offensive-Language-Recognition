@@ -1,4 +1,4 @@
-# Multiclass Classification for Hate-Speech and Offensive Language Recognition based on Tweets
+# Realtime Hate-Speech and Offensive Language Recognition based on Multiclass Classification
 
 This is a small project for DeepLearning in NLP at the University of Hamburg.
 We build a Multi-Classifier for Hate-Speech and Offensive Language detection based on TensorFlow.
