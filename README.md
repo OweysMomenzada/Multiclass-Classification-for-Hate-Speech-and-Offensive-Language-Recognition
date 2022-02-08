@@ -3,6 +3,8 @@
 This is a small project for DeepLearning in NLP at the University of Hamburg.
 We build a Multi-Classifier for Hate-Speech and Offensive Language detection based on TensorFlow.
 
+##### See \train\"Feature Engeneering & Training & Evaluation.ipynb" for our notebook, which contains data, preprocessing, modelling and evaluation.
+
 #### Requirements
 Please install the following python-packages:
 ```
